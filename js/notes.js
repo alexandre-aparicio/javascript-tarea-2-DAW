@@ -1,55 +1,43 @@
-
-
-
 function notas() {
-
 
     let nota = prompt("Introdueix una nota");
         nota = parseInt(nota);
-        
+    let node_nota = document.getElementById("nota");    
+    let node_qualificacio = document.getElementById("qualificacio");   
 
     if (nota > -1 && nota < 3) {
 
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: MUY DEFICIENTE";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Molt Deficient";
 
     } else if (nota > 2 && nota < 5) {
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: INSUFICIENTE";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Insuficient";
     }
 
     else if (nota == 5) {
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: APROVAT";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Aprovat";
+        
     }
 
     else if (nota == 6) {
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: BE";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Bé";
     }
 
     else if (nota > 6 && nota < 9) {
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: NOTABLE";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Notable";
     }
 
     else if (nota > 8 && nota < 11) {
-        document.getElementById("demo").innerHTML =
-            "Has sacado un " + nota + " Tu nota es: EXCEL·LENT";
+        node_nota.innerHTML = nota;
+        node_qualificacio.innerHTML  = "Excel·lent";
     } else {
-        document.getElementById("demo").innerHTML =
-            "NO PASA NADA";
+        node_nota.innerHTML = "?";
+        node_qualificacio.innerHTML  = "No has introduit un nombre vàlid";
     }
-
-
-
-
-
-
-
-
-
-
 
 }
 
