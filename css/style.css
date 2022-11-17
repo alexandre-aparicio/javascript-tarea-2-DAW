@@ -1,0 +1,45 @@
+.numero {
+    height: 120px;
+    background-color: rgb(245, 40, 200);
+    margin-left: 12px;
+    font-size: 38px;
+    font-weight: 800;
+    color: aliceblue;
+    margin: 12px 0 22px 22px;
+}
+
+.inici {
+    background-color: rgb(199, 198, 198);
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 38px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    padding:30px;
+    text-align: center;
+}
+
+.inici a {
+    text-decoration: none;
+    color:black;
+}
+
+.numero_n {
+    color: rgb(245, 40, 200);
+    font-size: 62px;
+    font-weight: 800;
+}
+
+.numero_men {
+    background-color: rgb(245, 149, 40);
+}
+
+.numero_maj {
+    background-color: rgb(29, 192, 7);
+}
+   
+#qualificacio {
+    color: rgb(245, 40, 200);
+    font-size: 62px;
+    font-weight: 800;
+}
